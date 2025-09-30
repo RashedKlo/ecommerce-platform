@@ -1,0 +1,24 @@
+first thing show banner is link
+should know path to 
+ must be width w-1300px h-400px  w-600 h-200
+then ask admin if he want to show three boxes if yes
+give me how many images do you want(
+ src images w-380px h-180px (w-200px h-80px) with title and
+ price and off 
+)
+
+
+three categories Bags Sneakers Belt
+
+
+product id,title, rate,price,off
+
+
+ delete all in database and add Bags ,Sneakers,BElt ,SUnglesses
+and set 4 images for every thing
+Best SELLEr get 4 categories get 4 categories with top orders 
+get top sales product from category,and get lastest products ,
+get limit of products  by categories
+get main banner with boxes and get secondary banner with boxes
+and get sub banner
+

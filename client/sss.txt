@@ -1,0 +1,7 @@
+
+SELECT  OrderDetails.OrderDetailID, OrderDetails.OrderID, OrderDetails.ProductID, Products.ProductName, Products.Price, Products.Discount, OrderDetails.Quantity,
+TotalPrice=case When Products.Discount!=0 then (OrderDetails.Quantity*Products.Price)*((1)-Products.Discount/(100))
+Else Products.Price  *OrderDetails.Quantity End,OrderDetails.CreatedAt
+FROM OrderDetails INNER JOIN
+Products ON OrderDetails.ProductID = Products.ProductID;
+
