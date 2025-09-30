@@ -95,3 +95,4 @@ This is an ongoing project showcasing modern full-stack development practices wi
 **Built with React.js, ASP.NET Core, and SQL Server** | **Modern Full-Stack E-Commerce Solution**
 
 *This project demonstrates modern web development practices, RESTful API design, secure authentication, and payment integration.*
+## Future Features
