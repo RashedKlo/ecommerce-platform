@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessAccess", "BussinessAccess\BussinessAccess.csproj", "{EFB030F0-9DD5-C846-C996-28FCAFF438CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB030F0-9DD5-C846-C996-28FCAFF438CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB030F0-9DD5-C846-C996-28FCAFF438CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB030F0-9DD5-C846-C996-28FCAFF438CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB030F0-9DD5-C846-C996-28FCAFF438CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD19294-E0C6-40FA-8CF2-E8953660C345}
+	EndGlobalSection
+EndGlobal

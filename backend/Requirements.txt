@@ -1,0 +1,18 @@
+CREATE TABLE Banners (
+    BannerName Nvarchar(255) PRIMARY KEY ,
+    Image NVARCHAR(255) NOT NULL,
+    Link NVARCHAR(255) NOT NULL,
+    Title NVARCHAR(255) NULL,
+    Subtitle NVARCHAR(255)NULL,
+    BtnText NVARCHAR(255) NULL,
+);
+
+CREATE TABLE BlendedBox (
+    ID INt PRIMARY KEY IDENTITY(1,1),
+    Title NVARCHAR(255) NOT NULL,
+    Image NVARCHAR(255) NOT NULL,
+    Price NVARCHAR(50) NOT NULL,
+    Discount NVARCHAR(50) NOT NULL,
+    BannerName nvarchar(255) NOT NULL,
+    FOREIGN KEY (BannerName) REFERENCES Banners(BannerName) ON Delete CasCade
+);
